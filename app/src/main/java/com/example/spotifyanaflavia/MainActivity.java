@@ -2,8 +2,10 @@ package com.example.spotifyanaflavia;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.TextureView;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView ivMusic;
     Button btnPlay;
     MediaPlayer mediaPlayer;
+    TextView aux;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
