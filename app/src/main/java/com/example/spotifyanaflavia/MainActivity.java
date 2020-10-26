@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     ImageView ivMusic;
     Button btnPlay;
     MediaPlayer mediaPlayer;
-    TextView aux;
 
 
     @Override
